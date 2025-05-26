@@ -1,0 +1,28 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.font{
+	margin-left: 40px;
+	margin-top: 30px;
+	color: #b8b8b8;
+	font-size: 18px;
+}
+.div1{
+	margin-top: 250px;
+	height: 170px;
+	width: 770px;
+	background-image: url(img/backg.png);
+}
+ul{
+	
+	display: flex;
+}
+li{
+	margin: 5px;
+	justify-content: space-between;
+	list-style: none;
+	
+}
