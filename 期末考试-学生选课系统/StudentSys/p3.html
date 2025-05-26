@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./css/p3.css" />
+	</head>
+	<body onload="show()">
+		
+		<div class="head">
+			<h2>人数列表</h2>
+			
+		</div>
+		<hr />
+		<div class="body">
+			<div class="body_a1">
+				<ul>
+					<li> <a href="./p1.html">专业列表</a></li>
+					<hr />
+					<li> <a href="./p2.html">课程列表</a></li>
+					<hr />
+					<li> <a href="./p3.html">人数列表</a></li>
+					<hr />
+					<li> <a href="./p4.html">考试安排</a></li>
+					<hr />
+					<li> <a href="./p5.html">准考证</a></li>
+					<hr />
+					<li> <a href="./p6.html">成绩查询</a></li>
+					<hr />
+				</ul>
+			</div>
+			<div class="shuxian_1"></div>
+			<div class="body_a2">
+					<h4>当前系统人数:XXX</h4>
+			
+			</div>
+			<div class="shuxian_1"></div>
+			<div class="body_a3">
+					<h4 class="h41">当前时间: </h4><h4 id="nowDiv"> </h4>
+							
+			</div>
+		</div>
+		
+		<div class="foot">
+			<hr />
+			<h2>欢迎报考</h2>
+			<hr />
+		</div>
+	</body>
+</html>
+
+
+<script> 
+function show(){ 
+	var date = new Date(); //日期对象 
+	var now = ""; 
+	now = date.getFullYear()+"年"; //读英文就行了 
+	now = now + (date.getMonth()+1)+"月"; //取月的时候取的是当前月-1如果想取当前月+1就可以了 
+	now = now + date.getDate()+"日"; 
+	now = now + date.getHours()+":"; 
+	now = now + date.getMinutes()+":"; 
+	now = now + date.getSeconds()+"PM"; 
+	document.getElementById("nowDiv").innerHTML = now; //div的html是now这个字符串 
+	setTimeout("show()",1000); //设置过1000毫秒就是1秒，调用show方法 
+} 
+</script> 
