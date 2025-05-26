@@ -1,0 +1,15 @@
+div{
+	display: flex;
+	width: 400px;
+
+}
+button{
+	width: 100px;
+	height: 40px;
+}
+img{
+	margin-top: 10px;
+	width: 400px;
+	height: 400px;
+	
+}

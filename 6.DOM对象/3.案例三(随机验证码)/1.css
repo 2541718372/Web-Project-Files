@@ -1,0 +1,35 @@
+.div{
+	background: #eee;
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.div11{
+	justify-content: center;
+	margin-left: 480px;
+}
+.div2{
+	
+	display: flex
+}
+
+.text1{
+	color: #4e96bc;
+	font-size: 10px;
+}
+.text2{
+	margin-top: 3px;
+}
+input{
+	width: 80px;
+	height: 25px;
+}
+button{
+	width: 60px;
+	height: 35px;
+}
+
+span{
+	background: #ddd;
+	font-size: 45px;
+}

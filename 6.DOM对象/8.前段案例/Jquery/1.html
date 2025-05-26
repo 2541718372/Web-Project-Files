@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            div{
+                width: 800px;
+                height: 600px;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div"></div>
+        <script src="jquery-1.12.4.min.js"></script>
+        <script src="echarts.js"></script>
+        <script>
+            var date = [];
+            var wen = [];
+            $.ajax({
+                url:"https://api.oioweb.cn/api/weather/weather?city_name=%E6%AD%A6%E6%B1%89%E5%B8%82",
+                type:"get",
+                data:"",
+                success:function(e){
+                    var result = e.result.forecast_list;
+                    for(var i=0; i < result.length;i++){
+                        date.push(result[i]["date"]);
+                        wen.push(result[i]["high_temperature"]);
+                    }
+                    var chartDom=document.getElementById('div');
+                    var myChart=echarts.init(chartDom);
+                    var option;
+                    
+                    option = {
+                    xAxis:{
+                    type: 'category',
+                    date:date
+                },
+                yAxis:{
+                type: 'value'
+                },
+                series:[
+                    {
+                        data: wen,
+                        type:'line'
+                    }
+                ]
+            };
+            
+            option && myChart.setOption(option);
+            }
+            })
+
+        </script>
+    </body>
+</html>
+

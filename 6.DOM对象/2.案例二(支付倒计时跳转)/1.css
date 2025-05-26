@@ -1,0 +1,10 @@
+.div{
+	background: #eee;
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.div2{
+	display: flex;
+	justify-content: space-evenly;
+}

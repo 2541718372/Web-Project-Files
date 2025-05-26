@@ -1,0 +1,62 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden; /* 隐藏垂直滚动条 */
+	overflow-x: hidden; /* 隐藏水平滚动条 */
+}
+.fa-brands{
+	font-size: 32px;
+	
+}
+.div1 {
+	width: 180px;
+	height: 400px;
+	background-color: #F3F0EF;
+	padding: 8px;
+	float: right;
+}
+
+.div1 img {
+	width: 150px;
+	height: 150px;
+	margin-left: 10px;
+	
+}
+
+p{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	margin: 8px;
+	height: 40px;
+	
+}
+li:hover{
+	background-color: #333;
+	color: #ffd49f;
+	border-radius: 5px;
+}
+.div2{
+	background-color: #333;
+	width: 24px;
+	height: 45px;
+	color: #ffd49f;
+	line-height: 42px;
+	text-align: center;
+	position: absolute;
+	right: 196px;
+	border-radius:  5px 0 0 5px;
+}
+.change{
+	
+}
+.font1{
+	margin-right: 12px;
+}

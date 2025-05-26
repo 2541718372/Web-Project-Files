@@ -1,0 +1,19 @@
+ul{
+	list-style-type: none;
+	width: 400px;
+	height: 400px;
+}
+li{
+	height: 120px;
+	width: 120px;
+	float: left;
+	background-color: #ccc;
+	margin: 2px;
+	text-align: center;
+	line-height: 125px;
+}
+.btnli{
+	background: green;
+	font-size: 20px;
+	color: white;
+}

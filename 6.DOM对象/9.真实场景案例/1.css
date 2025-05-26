@@ -1,0 +1,8 @@
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */@font-face {  font-family: "思源宋体 Light";font-weight: 300;src: url("//at.alicdn.com/wf/webfont/4ZxP2kwGzAxq/nXHmFlusjypz.woff2") format("woff2"),  url("//at.alicdn.com/wf/webfont/4ZxP2kwGzAxq/LOIAgUDfJHaG.woff") format("woff");  font-display: swap;}@media screen and (max-width:539px) {
+    .div {
+		display: flex;
+		flex-direction: column;
+        
+    }
+}
+body{	margin: 0;	padding: 0;	height: 100vh;}.div{	height: 100vh;	display: flex;	justify-content: center;	align-items: center;	gap: 30px;}.div>div{	height: 100px;	width: 100px;	border-radius: 20px;	box-shadow: 5px 18px 30px rgba(0, 0, 0, 0.2);	text-align: center;	line-height: 100px;	transition: box-shadow 0.2s ease-out;	font-family: "思源宋体 Light";	font-size: 20px;}.div>div:hover{	cursor: pointer;	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),	0 0 0 rgba(0, 0, 0, 0.8),	inset 5px 18px 30px rgba(0, 0, 0, 0.1),	inset -5px -18px 30px rgba(255,255,255,1);}

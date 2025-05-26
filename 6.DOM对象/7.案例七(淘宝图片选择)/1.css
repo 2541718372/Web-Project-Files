@@ -1,0 +1,16 @@
+div{
+	display: flex;
+	width: 400px;
+	
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin: 4px;
+}
+.img1{
+	margin-top: 10px;
+	width: 425px;
+	height: 425px;
+	
+}

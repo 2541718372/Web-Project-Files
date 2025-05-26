@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="1.css" />
+	</head>
+	<body>
+		<form action="#" onsubmit="event.preventDefault()" >
+			<fieldset>
+				<legend>学生信息</legend>
+				
+				<p>
+					姓名:<input type="text" /><br />
+				</p>
+				<p>
+					年龄:<input type="text" /><br />
+				</p>
+				<p>
+					性别:<select id="sex">
+						<option value="男">男</option>
+						<option value="女">女</option>
+					</select>
+				</p>
+				
+				<p>
+					手机号:<input type="text" /><br />
+				</p>
+				
+				<p>
+					<button id="btn">提交</button>
+				</p>
+			</fieldset>
+		</form>
+		
+		<table border="1px" style="border-collapse: collapse;">
+			<thead>
+				<tr>
+					<td>姓名</td>
+					<td>年龄</td>
+					<td>性别</td>				
+					<td>手机号</td>
+					<td>操作</td>
+				</tr>
+			</thead>
+			<tbody></tbody>
+			<tfoot></tfoot>
+		</table>
+		
+		<script src="1.js"></script>
+	</body>
+</html>

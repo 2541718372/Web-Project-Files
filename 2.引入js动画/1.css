@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+button{
+	padding: 2rem 4rem;
+	border: none;
+	color: white;
+	font-size: 1.5rem;
+	background-color: #616161;
+	transition: background-color 0.75s ease-out;
+}
+
+button:hover{
+	background-color: red;
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #616161;
+	height: 10vh;
+	transition: transform 0.75s ease-out;
+}
+
+.nav-slide{
+	transform: translateY(-100%);
+}
+p{
+	color: white;
+	transition: opacity 0.75s ease-out 0.75s;
+}
+.fade{
+	opacity: 0;
+}
