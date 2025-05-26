@@ -1,0 +1,5 @@
+https://css-loaders.com/dots/
+
+https://github.com/abi/screenshot-to-code
+
+https://strapi.io/
